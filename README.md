@@ -1,7 +1,5 @@
-## Welcome to the LabX Dealership
+## Welcome to our LabX Car Dealership
 
-# Angel
-# Arthur 
-# Rafid 
+View the live demo at: https://arthurseverino.github.io/LabX/
 
 ## Thanks!

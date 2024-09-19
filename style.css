@@ -1,5 +1,38 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, lavender, burlywood, cyan);
+  }
+  
+  h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+  h2 { 
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+  }
+  
+  .newCarRow{
+    gap: 5rem;
+    display: flex;
+    margin:5rem;
+  }
+
+  .preOwnedCarRow{
+    gap: 5rem;
+    display: flex;
+    margin:5rem;
+  }
