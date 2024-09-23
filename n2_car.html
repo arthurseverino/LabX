@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>New Car 2</title>
-</head>
-<body>
-    <img
-    src="https://carwow-uk-wp-3.imgix.net/New-BMW-M5-lead-5.png?auto=format&cs=tinysrgb&fit=crop&h=800&ixlib=rb-1.1.0&q=60&w=1600"
-    alt="n2" />
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMW M5 Competition</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+      }
+      main {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      img {
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .buy {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .buy:hover {
+        background-color: #218838;
+      }
+      footer {
+        margin-top: 20px;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LabX Dealership</h1>
+    </header>
+    <main>
+      <h2>M5 Comp</h2>
+      <img
+        src="https://carwow-uk-wp-3.imgix.net/New-BMW-M5-lead-5.png?auto=format&cs=tinysrgb&fit=crop&h=800&ixlib=rb-1.1.0&q=60&w=1600"
+        alt="New Car 2" />
+      <p>
+        Discover the features of this stunning BMW M5. It's designed to impress
+        and perform.
+      </p>
+      <button class="buy">Buy me!</button>
+    </main>
+    <footer>
+      <p>&copy; 2024 LabX Dealership. All rights reserved.</p>
+    </footer>
+    <a href="index.html" class="home">Back to Home Page</a>
+  </body>
 </html>
