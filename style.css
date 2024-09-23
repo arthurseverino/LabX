@@ -15,33 +15,50 @@ body {
   background: linear-gradient(90deg, lavender, burlywood, cyan);
 }
 
-h1 {
-  font-size: 5rem;
+.title {
+  color: #000000;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: flex-end;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  height: 10rem;
+  background-color: rgb(255, 0, 0);
+
 }
 
 .heading {
+  color: #000000;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
+  text-align: center;
   font-size: 2rem;
+  height: 10rem;
+  
+  background-color: rgb(255, 0, 0);
+
 }
 
 h3 {
+  color: #000000;
   font-size: 3rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
+  align-items: center;     
+  width: 30%;              
+  height: 10%;  
+  margin-left: 5rem;            
+      
 }
+
 
 .newCarRow {
   gap: 5rem;
   display: flex;
   margin: 1rem 5%;
+  
 }
 
 .preOwnedCarRow {
@@ -52,13 +69,16 @@ h3 {
 
 img {
   width: 250px; /* Set the width to 100% of the container */
-  height: 250px; /* Maintain the aspect ratio */
-  object-fit: contain; /* Do not scale the image */
+  height: 200px; /* Maintain the aspect ratio */
+  object-fit: cover; /* Do not scale the image */
+  background-color: black;
+  
 }
+
 
 button {
   background-color: #007bff;
-  color: #ffffff;
+  color: #ffff;
   padding: 10px 20px;
   border: none;
   border-radius: 15px;
