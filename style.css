@@ -15,19 +15,29 @@ body {
   background: linear-gradient(90deg, lavender, burlywood, cyan);
 }
 
-h1 {
-  font-size: 5rem;
+.title {
+  color: rgb(141, 29, 141);
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  border: 3px solid black;
+  background-color: rgb(155, 155, 155);
+
 }
 
 .heading {
+  color: rgb(141, 29, 141);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
   font-size: 2rem;
+  border: 3px solid #000000;
+  background-color: rgb(155, 155, 155);
+
 }
 
 h3 {
@@ -36,6 +46,12 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  border: 1px solid black;
+  width: 30%;
+  height: 10%;
+  border-radius: 10%;
+  background-color: rgb(155, 155, 155);
+  margin-left: 40rem;
 }
 
 .newCarRow {
@@ -54,6 +70,9 @@ img {
   width: 250px; /* Set the width to 100% of the container */
   height: 250px; /* Maintain the aspect ratio */
   object-fit: contain; /* Do not scale the image */
+  background-color: black;
+  border-radius: 20rem;
+  
 }
 
 button {
